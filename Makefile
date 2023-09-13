@@ -3,14 +3,16 @@ install:
 		pip install -r requirements.txt
 
 test: install
-	python -m pytest -vv --cov=src test_*.py
+	python -m pytest -vv --cov=src --cov=library test_*.py
+	pytest --nbval-lax src/*.ipynb
 
-format:	test
+format:
 	black src/*.py 
+	black library/*.py
 
-lint: format
+lint:
 	#Whenever a lint check needs to occur, either have a mylib folder, or change mylib to the respective folder name
-	pylint --disable=R,C --ignore-patterns=test_.*?py *.py src/*.py
+	pylint --disable=R,C --ignore-patterns=test_.*?py *.py src/*.py library/*.py
 
 refactor: format lint
 
