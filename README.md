@@ -1,7 +1,10 @@
-[![CI](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml)
-## Pandas Descriptive Statistics Script
+[![Install](https://github.com/nogibjj/python-integration-project/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/python-integration-project/actions/workflows/install.yml)
+[![Lint](https://github.com/nogibjj/python-integration-project/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/python-integration-project/actions/workflows/lint.yml)
+[![Test](https://github.com/nogibjj/python-integration-project/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/python-integration-project/actions/workflows/test.yml)
+[![Format](https://github.com/nogibjj/python-integration-project/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/python-integration-project/actions/workflows/format.yml)
+## Continous Integration using GitHub Actions of Python Data Science Project
 
-This is a POC of the Python Template, showing that creating a statistic script is automated. This is for Mini-Project 2 for IDS 706 Data Engineering
+This is a POC of a full Python Data Science project, that has a fully functioning continuous integration architecture setup, utilizing GitHub Actions. This is for Individual Project 1 for IDS 706 Data Engineering
 
 Tasks Completed Include:
 
