@@ -17,4 +17,4 @@ Tasks Completed Include:
 
 A video explanation of everything is here
 
-[![YouTube Link](https://www.youtube.com/watch?v=dQEtzD4ntZg)]
+[YouTube Link](https://www.youtube.com/watch?v=dQEtzD4ntZg)
