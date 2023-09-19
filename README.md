@@ -8,10 +8,9 @@ This is a POC of a full Python Data Science project, that has a fully functionin
 
 Tasks Completed Include:
 
-* Adding the proper pandas version to the requirements.txt file, specifically pandas version 2.1.0. Also added matplotlib
-* Added a src folder that held the created script function, which reads the iris.csv (found at https://gist.github.com/netj/8836201), and returns descriptive stats on sepal_length
-* Added a function that creates a graph of the average sepal length of 3 different species of Iris, and saves it as a photo. The graph is shown below
-* Added a test function called test_stat.py, which runs an assert on the function to gauge if it properly works. It compares the descriptive stats values with what they should be, and verifies that an image has been created
-* Edited MakeFile to properly install everything, test the code, format everything proerply, and run a linter
-
-![answer](https://github.com/nogibjj/kb545-pandas-stat-script/assets/55768636/ec4e21d0-e605-4b18-adb1-aac7b97a8f58)
+* Adding the proper pandas version to the requirements.txt file, specifically pandas version 2.1.0. Also added matplotlib, Ruff, and nbval plugin
+* Added a library folder that holds a lib.py file, which holds a function that accepts a filePath, and returns the descriptive stats of said dataset
+* Added a src folder that holds a panda_stat.py file, which passes in the iris.csv (found at https://gist.github.com/netj/8836201). As well, holds a panda_jupyter.ipynb file, which is a jupyter notebook that does the same
+* Added two test files. The first, called test_lib.py, which runs an assert on the function in the library to gauge if it is properly working. The second test file, called test_script.py, tests the panda_stat.py file to gauge if it properly works. To test the jupyter notebook, the makefile uses nbval extension from pytest
+* Edited MakeFile to properly install everything, test the code using both pytest and nbval, lints using ruff, and formats files in both the src folder and library folder
+* Changed this very README to hold Github Actions badges
