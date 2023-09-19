@@ -14,3 +14,7 @@ Tasks Completed Include:
 * Added two test files. The first, called test_lib.py, which runs an assert on the function in the library to gauge if it is properly working. The second test file, called test_script.py, tests the panda_stat.py file to gauge if it properly works. To test the jupyter notebook, the makefile uses nbval extension from pytest
 * Edited MakeFile to properly install everything, test the code using both pytest and nbval, lints using ruff, and formats files in both the src folder and library folder
 * Changed this very README to hold Github Actions badges
+
+A video explanation of everything is here
+
+[![YouTube Link](https://www.youtube.com/watch?v=dQEtzD4ntZg)]
